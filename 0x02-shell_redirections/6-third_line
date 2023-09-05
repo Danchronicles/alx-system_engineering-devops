@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if the file "iacta" exists in the current directory
+if [ -e "iacta" ]; then
+    # Use head to get the first 3 lines, and then use tail to get the third line
+    head -n 3 iacta | tail -n 1
+else
+    echo "The file 'iacta' does not exist in the current directory."
+fi
+
