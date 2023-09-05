@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello, World\n" > output.txt
+# This script prints "Hello, World" to a file named "output.txt"
+echo "Hello, World"
